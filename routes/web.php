@@ -1,6 +1,8 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+
+Route::get('/reg','App\Http\Controllers\PersonasController@addPersonas');
+
+Route::get('/login','App\Http\Controllers\PersonasTableController@getPersonas');
