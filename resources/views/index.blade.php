@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{!! asset('css/app.css') !!}">
+<link rel="stylesheet" href="../css/app.css">
 
 <div class="container">
     <div class="row">
